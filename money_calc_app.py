@@ -12,7 +12,7 @@ st.write("香斗が個人で払ったけど、共用で払うべき金額")
 Yoshito_Paid_Receipt_num = st.number_input(
     "レシートの枚数",
     min_value=0,
-    value=3,
+    value=0,
     step=1,
     key="Yoshito_Paid"
 )
@@ -30,8 +30,8 @@ Yoshito_Paid_Sum = sum(Yoshito_Paid_All)
 st.write("唯乃が個人で払ったけど、共用で払うべき金額")
 Yuino_Paid_Receipt_num = st.number_input(
     "レシートの枚数",
-    min_value=1,
-    value=3,
+    min_value=0,
+    value=0,
     step=1,
     key="Yuino_Paid"
 )
@@ -49,8 +49,8 @@ Yuino_Paid_Sum = sum(Yuino_Paid_All)
 st.write("共用で払ったけど、香斗が個人で払うべき金額")
 Common_Paid_Receipt_num_Yoshito = st.number_input(
     "レシートの枚数",
-    min_value=1,
-    value=3,
+    min_value=0,
+    value=0,
     step=1,
     key="Common_Paid_Yoshito"
 )
@@ -68,8 +68,8 @@ Common_Paid_Sum_Yoshito = sum(Common_Paid_All_Yoshito)
 st.write("共用で払ったけど、唯乃が個人で払うべき金額")
 Common_Paid_Receipt_num_Yuino = st.number_input(
     "レシートの枚数",
-    min_value=1,
-    value=3,
+    min_value=0,
+    value=0,
     step=1,
     key="Common_Paid_Yuino"
 )
