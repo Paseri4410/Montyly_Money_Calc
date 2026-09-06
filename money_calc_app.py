@@ -13,7 +13,8 @@ Yoshito_Paid_Receipt_num = st.number_input(
     "レシートの枚数",
     min_value=1,
     value=3,
-    step=1
+    step=1,
+    key="Yoshito_Paid"
 )
 Yoshito_Paid_All = []
 for Yoshito_Paid_Receipt in range(Yoshito_Paid_Receipt_num):
@@ -31,7 +32,8 @@ Yuino_Paid_Receipt_num = st.number_input(
     "レシートの枚数",
     min_value=1,
     value=3,
-    step=1
+    step=1,
+    key="Yuino_Paid"
 )
 Yuino_Paid_All = []
 for Yuino_Paid_Receipt in range(Yuino_Paid_Receipt_num):
@@ -49,7 +51,8 @@ Common_Paid_Receipt_num_Yoshito = st.number_input(
     "レシートの枚数",
     min_value=1,
     value=3,
-    step=1
+    step=1,
+    key="Common_Paid_Yoshito"
 )
 Common_Paid_All_Yoshito = []
 for Common_Paid_Receipt_Yoshito in range(Common_Paid_Receipt_num_Yoshito):
@@ -67,7 +70,8 @@ Common_Paid_Receipt_num_Yuino = st.number_input(
     "レシートの枚数",
     min_value=1,
     value=3,
-    step=1
+    step=1,
+    key="Common_Paid_Yuino"
 )
 Common_Paid_All_Yuino = []
 for Common_Paid_Receipt_Yuino in range(Common_Paid_Receipt_num_Yuino):
