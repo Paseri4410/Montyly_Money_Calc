@@ -58,7 +58,7 @@ Common_Paid_All_Yoshito = []
 for Common_Paid_Receipt_Yoshito in range(Common_Paid_Receipt_num_Yoshito):
     Common_Paid_Yoshito = st.number_input(
         f"レシート{Common_Paid_Receipt_Yoshito + 1}",
-        key = f"Yuino_Paid_{Common_Paid_Receipt_Yoshito + 1}"
+        key = f"Common_Paid_Yoshito_{Common_Paid_Receipt_Yoshito + 1}"
     )
     Common_Paid_All_Yoshito.append(Common_Paid_Yoshito)
 Common_Paid_Sum_Yoshito = sum(Common_Paid_All_Yoshito)
@@ -77,7 +77,7 @@ Common_Paid_All_Yuino = []
 for Common_Paid_Receipt_Yuino in range(Common_Paid_Receipt_num_Yuino):
     Common_Paid_Yuino = st.number_input(
         f"レシート{Common_Paid_Receipt_Yuino + 1}",
-        key = f"Yuino_Paid_{Common_Paid_Receipt_Yuino + 1}"
+        key = f"Common_Paid_Yuino_{Common_Paid_Receipt_Yuino + 1}"
     )
     Common_Paid_All_Yuino.append(Common_Paid_Yuino)
 Common_Paid_Sum_Yuino = sum(Common_Paid_All_Yuino)
