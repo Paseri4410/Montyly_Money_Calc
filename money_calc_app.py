@@ -11,7 +11,7 @@ MONTHLY_YUINO_TO_COMMON_CONST = (90000)
 st.write("香斗が個人で払ったけど、共用で払うべき金額")
 Yoshito_Paid_Receipt_num = st.number_input(
     "レシートの枚数",
-    min_value=1,
+    min_value=0,
     value=3,
     step=1,
     key="Yoshito_Paid"
